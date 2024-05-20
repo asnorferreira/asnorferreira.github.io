@@ -4,7 +4,7 @@ Bem-vindo ao repositório do meu portfólio! Aqui você encontrará informaçõe
 
 ## Sobre Mim
 
-<img src="asnor-ferreira.jpg" alt="Asnor Ferreira" width="150" />
+<img src/docs="asnor-ferreira.jpg" alt="Asnor Ferreira" width="150" />
 
 Sou Desenvolvedor Back-End com profunda experiência em tecnologias modernas de servidor, com foco em Node.js, Python e SQL.
 
