@@ -39,7 +39,7 @@ Otimização de aplicações back-end para máxima eficiência e desempenho.
 
 ## Visualização do Portfólio
 
-[![Portfólio](https://asnorferreira.github.io/)
+- [Portfólio: asnorferreira.github.io](https://asnorferreira.github.io/)
 
 ## Como Contribuir
 
