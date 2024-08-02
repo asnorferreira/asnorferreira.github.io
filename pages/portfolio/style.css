@@ -1,0 +1,19 @@
+#right img {
+  width: 100vw;
+  height: auto;
+}
+
+#portfolio_left {
+  display: flex;
+  gap: 8rem;
+  flex-direction: row-reverse;
+}
+
+#left img {
+  width: 100vw;
+  height: auto;
+}
+
+#projects {
+  padding-top: 5rem;
+}

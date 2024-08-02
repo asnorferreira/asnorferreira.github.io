@@ -1,0 +1,114 @@
+.contact-intro {
+  padding: 3rem 10rem;
+  display: flex;
+  flex-direction: space-between;
+  align-items: center;
+}
+
+.text-content {
+  color: var(--clr-black);
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 2px solid var(--clr-light-gray);
+  border-bottom: 2px solid var(--clr-light-gray);
+  padding-top: 3rem;
+  width: 100%;
+}
+
+.text-content .right-content {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: auto;
+}
+
+.contact-intro h1 {
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  letter-spacing: -0.5px;
+}
+
+.contact-intro p {
+  font-family: "Public Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 30px;
+  margin-bottom: 2rem;
+}
+
+#link {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contact-intro-form {
+  padding: 3rem 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contact-intro-form h1 {
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  letter-spacing: -0.5px;
+}
+
+.contact-form {
+  flex: 1;
+  max-width: 600px;
+  margin-left: 2rem;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form label {
+  font-size: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #eee;
+  width: 100%;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--clr-black);
+  background-color: var(--clr-white);
+}
+
+.contact-form button {
+  align-self: flex-start;
+  background-color: var(--clr-secondary);
+  color: var(--clr-white);
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  font-size: var(--fs-200);
+  border: none;
+  cursor: pointer;
+  letter-spacing: 2px;
+  font-size: var(--fs-200);
+}
+
+.contact-form button:hover {
+  background-color: var(--clr-primary);
+}

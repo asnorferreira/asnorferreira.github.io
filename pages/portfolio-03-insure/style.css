@@ -1,0 +1,155 @@
+.insure-img {
+  position: relative;
+  padding: 0rem 10rem;
+}
+
+.insure-img img {
+  width: 100vw;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.project-preview {
+  display: flex;
+  gap: 2rem;
+  padding: 5rem 10rem;
+}
+
+.project-preview .container {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.project-preview .container h1 {
+  margin-top: 3rem;
+  font-family: var(--ff-secondary);
+  font-size: 2.5rem;
+  line-height: 42px;
+  margin-bottom: 1rem;
+  letter-spacing: -0.36px;
+}
+
+.project-preview .container p {
+  margin-top: 2rem;
+  font-family: var(--ff-primary);
+  font-size: 1rem;
+  line-height: 30px;
+  color: var(--clr-primary);
+}
+
+.project-preview .container p.highlight {
+  font-weight: var(--fw-bold);
+}
+
+#little {
+  margin-bottom: 2rem;
+  color: var(--clr-black);
+}
+
+.project-preview button {
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  align-self: center;
+  letter-spacing: 2px;
+  font-size: var(--fs-200);
+  cursor: pointer;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.project-preview .border-bottom {
+  border-top: 2px solid var(--clr-light-gray);
+  border-bottom: 2px solid var(--clr-light-gray);
+}
+
+.container-right {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  color: var(--clr-black);
+  margin-left: 2rem;
+}
+
+.container-right h2 {
+  font-family: var(--ff-secondary);
+  font-size: 2rem;
+  line-height: 42px;
+  letter-spacing: -0.36px;
+  margin-bottom: 1rem;
+}
+
+.container-right p {
+  font-family: var(--ff-primary);
+  font-size: 1rem;
+  line-height: 30px;
+}
+
+.container-right .container-to-right {
+  padding: 3rem 0rem;
+}
+
+.container-right .container-to-right img {
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.navigation {
+  padding: 3rem 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 7rem;
+}
+
+.navigation .container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-top: 2px solid var(--clr-light-gray);
+  border-bottom: 2px solid var(--clr-light-gray);
+}
+
+.navigation .bookmark-project,
+.navigation .fylo-project {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navigation .bookmark-project .text-content,
+.navigation .fylo-project .text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.navigation .bookmark-project a,
+.navigation .fylo-project a {
+  font-family: var(--ff-secondary);
+  font-size: 2rem;
+  line-height: 42px;
+  letter-spacing: -0.36px;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  color: var(--clr-black);
+}
+
+.navigation .bookmark-project p,
+.navigation .fylo-project p {
+  font-family: var(--ff-secondary);
+  font-size: 1.5rem;
+  line-height: 30px;
+  color: var(--clr-light-gray);
+  font-weight: var(--fw-bold);
+}
+
+.arrow-icon {
+  cursor: pointer;
+}
