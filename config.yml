@@ -1,2 +1,8 @@
-source: docs/pages
+source: docs
 destination: _site
+
+include:
+  - assets
+  - css
+  - script
+  - pages/style.css
